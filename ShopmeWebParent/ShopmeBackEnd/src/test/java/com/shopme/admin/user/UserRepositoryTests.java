@@ -36,4 +36,58 @@ public class UserRepositoryTests {
 
         assertThat(savedUser.getId()).isGreaterThan(0);
     }
+
+    @Test
+    void testCreateNewUserWithTwoRoles() {
+        User userRavi = new User(
+                "revi@r.ru",
+                "ravi2020",
+                "Ravi",
+                "Kumar"
+        );
+
+        userRavi.addRole(new Role(3)); // Editor
+        userRavi.addRole(new Role(5)); // Assistant
+
+        User savedUser = userRepository.save(userRavi);
+        assertThat(savedUser.getId()).isGreaterThan(0);
+    }
+
+    @Test
+    void testListAllUser() {
+        Iterable<User> listUser = userRepository.findAll();
+        listUser.forEach(System.out::println);
+        assertThat(listUser);
+    }
+
+    @Test
+    void testGetUserByID() {
+        User userNam = userRepository.findById(1).get();
+        System.out.println(userNam);
+        assertThat(userNam).isNotNull();
+    }
+
+    @Test
+    void testUpdateUserDetails() {
+        User userNam = userRepository.findById(1).get();
+        userNam.setEnabled(true);
+		userNam.setEmail("namjavaprogrammer@gmail.com");
+
+        userRepository.save(userNam);
+    }
+
+    @Test
+    void testUpdateUserRoles() {
+        User userRavi = userRepository.findById(2).get();
+        userRavi.getRoles().remove(new Role(3)); // remove role Editor
+        userRavi.getRoles().add(new Role(2)); // add role Sales
+
+
+    }
+
+    @Test
+    void testDeleteUser() {
+        Integer userID = 2;
+        userRepository.deleteById(userID);
+    }
 }
