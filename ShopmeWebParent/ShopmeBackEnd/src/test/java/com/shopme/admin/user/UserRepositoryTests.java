@@ -1,93 +1,93 @@
 package com.shopme.admin.user;
 
-import com.shopme.common.entity.Role;
-import com.shopme.common.entity.User;
+import static org.assertj.core.api.Assertions.assertThat;
+
+import java.util.List;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.annotation.Rollback;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import com.shopme.common.entity.Role;
+import com.shopme.common.entity.User;
 
 @DataJpaTest
-@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-@Rollback(value = false)
+@AutoConfigureTestDatabase(replace = Replace.NONE)
+@Rollback(false)
 public class UserRepositoryTests {
-    @Autowired
-    private UserRepository userRepository;
+	@Autowired
+	private UserRepository repo;
 
-    @Autowired
-    TestEntityManager testEntityManager;
+	@Autowired
+	private TestEntityManager entityManager;
 
-    @Test
+	@Test
+	public void testCreateNewUserWithOneRole() {
+		Role roleAdmin = entityManager.find(Role.class, 1);
+		User userNamHM = new User("nam@codejava.net", "nam2020", "Nam", "Ha Minh");
+		userNamHM.addRole(roleAdmin);
 
-    public void testCreateUser() {
-        Role adminRole = testEntityManager.find(Role.class, 1);
-        User userHamHM = new User(
-                "q@q.ru",
-                "nam200",
-                "Nam",
-                "Ha Min");
-        userHamHM.addRole(adminRole);
+		User savedUser = repo.save(userNamHM);
 
-        User savedUser = userRepository.save(userHamHM);
+		assertThat(savedUser.getId()).isGreaterThan(0);
+	}
 
-        assertThat(savedUser.getId()).isGreaterThan(0);
-    }
+	@Test
+	public void testCreateNewUserWithTwoRoles() {
+		User userRavi = new User("ravi@gmail.com", "ravi2020", "Ravi", "Kumar");
+		Role roleEditor = new Role(3);
+		Role roleAssistant = new Role(5);
 
-    @Test
-    void testCreateNewUserWithTwoRoles() {
-        User userRavi = new User(
-                "revi@r.ru",
-                "ravi2020",
-                "Ravi",
-                "Kumar"
-        );
+		userRavi.addRole(roleEditor);
+		userRavi.addRole(roleAssistant);
 
-        userRavi.addRole(new Role(3)); // Editor
-        userRavi.addRole(new Role(5)); // Assistant
+		User savedUser = repo.save(userRavi);
 
-        User savedUser = userRepository.save(userRavi);
-        assertThat(savedUser.getId()).isGreaterThan(0);
-    }
+		assertThat(savedUser.getId()).isGreaterThan(0);
+	}
 
-    @Test
-    void testListAllUser() {
-        Iterable<User> listUser = userRepository.findAll();
-        listUser.forEach(System.out::println);
-        assertThat(listUser);
-    }
+	@Test
+	public void testListAllUsers() {
+		Iterable<User> listUsers = repo.findAll();
+		listUsers.forEach(user -> System.out.println(user));
+	}
 
-    @Test
-    void testGetUserByID() {
-        User userNam = userRepository.findById(1).get();
-        System.out.println(userNam);
-        assertThat(userNam).isNotNull();
-    }
+	@Test
+	public void testGetUserById() {
+		User userNam = repo.findById(1).get();
+		System.out.println(userNam);
+		assertThat(userNam).isNotNull();
+	}
 
-    @Test
-    void testUpdateUserDetails() {
-        User userNam = userRepository.findById(1).get();
-        userNam.setEnabled(true);
+	@Test
+	public void testUpdateUserDetails() {
+		User userNam = repo.findById(1).get();
+		userNam.setEnabled(true);
 		userNam.setEmail("namjavaprogrammer@gmail.com");
 
-        userRepository.save(userNam);
-    }
+		repo.save(userNam);
+	}
 
-    @Test
-    void testUpdateUserRoles() {
-        User userRavi = userRepository.findById(2).get();
-        userRavi.getRoles().remove(new Role(3)); // remove role Editor
-        userRavi.getRoles().add(new Role(2)); // add role Sales
+	@Test
+	public void testUpdateUserRoles() {
+		User userRavi = repo.findById(2).get();
+		Role roleEditor = new Role(3);
+		Role roleSalesperson = new Role(2);
 
+		userRavi.getRoles().remove(roleEditor);
+		userRavi.addRole(roleSalesperson);
 
-    }
+		repo.save(userRavi);
+	}
 
-    @Test
-    void testDeleteUser() {
-        Integer userID = 2;
-        userRepository.deleteById(userID);
-    }
+	@Test
+	public void testDeleteUser() {
+		Integer userId = 2;
+		repo.deleteById(userId);
+
+	}
 }
