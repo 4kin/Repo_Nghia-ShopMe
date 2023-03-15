@@ -42,6 +42,7 @@ public class User {
     private Set<Role> roles = new HashSet<>();
 
     public User() {
+        this.setEnabled(true);
     }
 
     public User(String email,String password , String firstName, String lastName) {
@@ -49,6 +50,7 @@ public class User {
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.setEnabled(true);
 	}
 
 
