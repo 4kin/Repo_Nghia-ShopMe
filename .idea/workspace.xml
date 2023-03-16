@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="008 Encode User Password.mp4">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserRestController.java" afterDir="false" />
+    <list default="true" id="7a90e386-acbc-4238-954f-556120e7e00c" name="Changes" comment="007 Code New User Function.mp4 finish">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/ShopmeBackEndApplication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/ShopmeBackEndApplication.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +23,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="8c3e537ac89fe9581c38e2e3e69a6a558613bcd3" />
       </map>
     </option>
   </component>
@@ -57,7 +52,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2MxcvhHnabAU0aoAKaMsJIlVADI" />
+  <component name="ProjectId" id="2N0rDmCnCPLntS3QdKSr2L4ty0R" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,7 +61,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -77,34 +71,23 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/4kin-c/_java_projects/smp/Repo_Nghia-ShopMe/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/4kin-c/_java_projects/Repo_Nghia-ShopMe/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.spelling&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;8295f975250199ecbc6e3c56dbaa59bc&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\4kin-c\_java_projects\smp\Repo_Nghia-ShopMe\ShopmeWebParent\ShopmeBackEnd\src\main\resources\templates" />
+      <recent name="C:\4kin-c\_java_projects\Repo_Nghia-ShopMe\ShopmeWebParent\ShopmeBackEnd\src\main\resources\templates" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shopme.admin.user" />
     </key>
   </component>
@@ -116,7 +99,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopmeBackEndApplication">
-    <configuration name="PasswordEncoderTest.testEncoderPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in ShopmeBackEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeBackEnd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTests.testCreateNewUserWithTwoRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackEnd" />
       <extension name="coverage">
         <pattern>
@@ -125,29 +116,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.PasswordEncoderTest" />
-      <option name="METHOD_NAME" value="testEncoderPassword" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.UserRepositoryTests" />
+      <option name="METHOD_NAME" value="testCreateNewUserWithTwoRoles" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoleRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackEnd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.admin.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.RoleRepositoryTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTests.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackEnd" />
       <extension name="coverage">
         <pattern>
@@ -157,12 +133,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
       <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.UserRepositoryTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTests.testGetUserByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTests.testUpdateUserRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackEnd" />
       <extension name="coverage">
         <pattern>
@@ -172,7 +149,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
       <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.UserRepositoryTests" />
-      <option name="METHOD_NAME" value="testGetUserByEmail" />
+      <option name="METHOD_NAME" value="testUpdateUserRole" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,89 +158,59 @@
     <configuration name="user_form.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Repo_Nghia-ShopMe/ShopmeBackEnd/templates/user_form.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.user_form.html" />
-      <item itemvalue="JUnit.PasswordEncoderTest.testEncoderPassword" />
-      <item itemvalue="JUnit.UserRepositoryTests.testGetUserByEmail" />
-      <item itemvalue="JUnit.RoleRepositoryTests" />
-      <item itemvalue="JUnit.UserRepositoryTests" />
-      <item itemvalue="Spring Boot.ShopmeBackEndApplication" />
-      <item itemvalue="Spring Boot.ShopmeFrontEndApplication" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRepositoryTests.testGetUserByEmail" />
-        <item itemvalue="JUnit.PasswordEncoderTest.testEncoderPassword" />
         <item itemvalue="JavaScript Debug.user_form.html" />
-        <item itemvalue="JUnit.UserRepositoryTests" />
-        <item itemvalue="JUnit.RoleRepositoryTests" />
+        <item itemvalue="JUnit.UserRepositoryTests.testCreateNewUserWithTwoRoles" />
+        <item itemvalue="JUnit.All in ShopmeBackEnd" />
+        <item itemvalue="JUnit.UserRepositoryTests.testDeleteUser" />
+        <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserRole" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="" />
-      <created>1678712910134</created>
+      <changelist id="7a90e386-acbc-4238-954f-556120e7e00c" name="Changes" comment="" />
+      <created>1678811727974</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678712910134</updated>
-      <workItem from="1678712913011" duration="2736000" />
-      <workItem from="1678773682987" duration="17381000" />
-      <workItem from="1678863835313" duration="11440000" />
-      <workItem from="1678945491164" duration="7563000" />
-      <workItem from="1678962925912" duration="2178000" />
+      <updated>1678811727974</updated>
+      <workItem from="1678811732068" duration="12345000" />
+      <workItem from="1678912960828" duration="6389000" />
+      <workItem from="1678993708875" duration="456000" />
+      <workItem from="1678994197969" duration="4013000" />
+      <workItem from="1678998991449" duration="2101000" />
     </task>
-    <task id="LOCAL-00001" summary="002 Using jQuery and Bootstrap.mp4">
-      <created>1678713144757</created>
+    <task id="LOCAL-00001" summary="005 Code User Entity, User Repository and Unit Tests.mp4 [finish]">
+      <created>1678822520154</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1678713144757</updated>
+      <updated>1678822520154</updated>
     </task>
-    <task id="LOCAL-00002" summary="002 Using jQuery and Bootstrap.mp4">
-      <created>1678713170184</created>
+    <task id="LOCAL-00002" summary="005 Code User Entity, User Repository and Unit Tests.mp4 [finish]">
+      <created>1678823262518</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1678713170185</updated>
+      <updated>1678823262518</updated>
     </task>
-    <task id="LOCAL-00003" summary="003 Add Logo and Create Header Menu.mp4">
-      <created>1678714400939</created>
+    <task id="LOCAL-00003" summary="006 Code Users Listing Function.mp4">
+      <created>1678828570607</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1678714400940</updated>
+      <updated>1678828570607</updated>
     </task>
-    <task id="LOCAL-00004" summary="005 Code User Entity, User Repository and Unit Tests.mp4">
-      <created>1678785139315</created>
+    <task id="LOCAL-00004" summary="007 Code New User Function.mp4 finish">
+      <created>1678919334209</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1678785139315</updated>
+      <updated>1678919334209</updated>
     </task>
-    <task id="LOCAL-00005" summary="007 Code New User Function.mp4&#10;18 min">
-      <created>1678889541228</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678889541228</updated>
-    </task>
-    <task id="LOCAL-00006" summary=".idea files">
-      <created>1678945742006</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1678945742006</updated>
-    </task>
-    <task id="LOCAL-00007" summary="008 Encode User Password.mp4">
-      <created>1678959712516</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1678959712516</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +219,23 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="36f7e3ac-513e-4b92-9eca-d40549dce7f5">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/вторая_ветка" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -280,7 +244,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -305,43 +269,18 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/main" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="002 Using jQuery and Bootstrap.mp4" />
-    <MESSAGE value="003 Add Logo and Create Header Menu.mp4" />
-    <MESSAGE value="004 Code Role Entity, Role Repository and Unit Test.mp4" />
-    <MESSAGE value="007 Code New User Function.mp4&#10;18 min" />
-    <MESSAGE value=".idea files" />
-    <MESSAGE value="008 Encode User Password.mp4" />
-    <option name="LAST_COMMIT_MESSAGE" value="008 Encode User Password.mp4" />
+    <MESSAGE value="005 Code User Entity, User Repository and Unit Tests.mp4 [finish]" />
+    <MESSAGE value="006 Code Users Listing Function.mp4" />
+    <MESSAGE value="007 Code New User Function.mp4 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="007 Code New User Function.mp4 finish" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
