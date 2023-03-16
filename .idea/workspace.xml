@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment=".idea files">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/PasswordEncoderTest.java" afterDir="false" />
+    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="008 Encode User Password.mp4">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,35 +68,35 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "true",
-    "last_opened_file_path": "C:/4kin-c/_java_projects/smp/Repo_Nghia-ShopMe/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "spring.configuration.checksum": "8295f975250199ecbc6e3c56dbaa59bc",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/4kin-c/_java_projects/smp/Repo_Nghia-ShopMe/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8295f975250199ecbc6e3c56dbaa59bc&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\4kin-c\_java_projects\smp\Repo_Nghia-ShopMe\ShopmeWebParent\ShopmeBackEnd\src\main\resources\templates" />
@@ -159,7 +162,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTests.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTests.testGetUserByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackEnd" />
       <extension name="coverage">
         <pattern>
@@ -169,7 +172,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
       <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.UserRepositoryTests" />
-      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="METHOD_NAME" value="testGetUserByEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,19 +184,19 @@
     <list>
       <item itemvalue="JavaScript Debug.user_form.html" />
       <item itemvalue="JUnit.PasswordEncoderTest.testEncoderPassword" />
+      <item itemvalue="JUnit.UserRepositoryTests.testGetUserByEmail" />
       <item itemvalue="JUnit.RoleRepositoryTests" />
       <item itemvalue="JUnit.UserRepositoryTests" />
-      <item itemvalue="JUnit.UserRepositoryTests.testCreateUser" />
       <item itemvalue="Spring Boot.ShopmeBackEndApplication" />
       <item itemvalue="Spring Boot.ShopmeFrontEndApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryTests.testGetUserByEmail" />
         <item itemvalue="JUnit.PasswordEncoderTest.testEncoderPassword" />
         <item itemvalue="JavaScript Debug.user_form.html" />
         <item itemvalue="JUnit.UserRepositoryTests" />
         <item itemvalue="JUnit.RoleRepositoryTests" />
-        <item itemvalue="JUnit.UserRepositoryTests.testCreateUser" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +211,8 @@
       <workItem from="1678712913011" duration="2736000" />
       <workItem from="1678773682987" duration="17381000" />
       <workItem from="1678863835313" duration="11440000" />
-      <workItem from="1678945491164" duration="4405000" />
+      <workItem from="1678945491164" duration="7563000" />
+      <workItem from="1678962925912" duration="2178000" />
     </task>
     <task id="LOCAL-00001" summary="002 Using jQuery and Bootstrap.mp4">
       <created>1678713144757</created>
@@ -252,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678945742006</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="008 Encode User Password.mp4">
+      <created>1678959712516</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678959712516</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +281,20 @@
                     <value>
                       <list>
                         <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="hash">
+                    <value>
+                      <list>
+                        <option value="aa71f3de30807d413f5ec56d6d4382bfd0c23119" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="aa71f3de30807d413f5ec56d6d4382bfd0c23119" />
                       </list>
                     </value>
                   </entry>
@@ -304,7 +329,19 @@
     <MESSAGE value="004 Code Role Entity, Role Repository and Unit Test.mp4" />
     <MESSAGE value="007 Code New User Function.mp4&#10;18 min" />
     <MESSAGE value=".idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea files" />
+    <MESSAGE value="008 Encode User Password.mp4" />
+    <option name="LAST_COMMIT_MESSAGE" value="008 Encode User Password.mp4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
