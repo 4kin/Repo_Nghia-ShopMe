@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="ShopmeBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     <option name="HIDE_BANNER" value="true" />
     <module name="ShopmeBackEnd" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopme.admin.ShopmeBackEndApplication" />
