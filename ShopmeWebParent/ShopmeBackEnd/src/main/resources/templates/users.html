@@ -94,11 +94,11 @@
                 <td>[[${user.roles}]]</td>
                 <td>
                     <i th:if="${user.enabled == true} " class="fas fa-check-circle fa-2x icon-green"></i>
-                    <i th:if="${user.enabled == false}" class="fas fa-check-circle fa-2x icon-dark" href=""></i>
+                    <i th:if="${user.enabled == false}" class="fas fa-check-circle fa-2x icon-dark"></i>
                 </td>
                 <td>
                     <a class="fas fa-edit fa-2x icon-green" th:href="@{'/users/edit/' +${user.id}}" title="Изменить"></a>
-                    <a class="fas fa-trash-alt fa-2x icon-dark" href=""></a>
+                    <a class="fas fa-trash-alt fa-2x icon-dark" th:href="@{'/users/delete/'+ ${user.id}}"  title="Удалить пользователя"></a>
                 </td>
             </tr>
 
