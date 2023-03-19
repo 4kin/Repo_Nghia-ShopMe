@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="011 Code Update User Function.mp4">
+    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="012 Code Delete User Function.mp4&#10;10-35 min">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTests.testConutById">
+  <component name="RunManager" selected="Spring Boot.ShopmeBackEndApplication">
     <configuration name="PasswordEncoderTest.testEncoderPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackEnd" />
       <extension name="coverage">
@@ -230,7 +228,7 @@
       <workItem from="1678945491164" duration="7563000" />
       <workItem from="1678962925912" duration="2178000" />
       <workItem from="1679253698300" duration="878000" />
-      <workItem from="1679258025484" duration="1583000" />
+      <workItem from="1679258025484" duration="4127000" />
     </task>
     <task id="LOCAL-00001" summary="002 Using jQuery and Bootstrap.mp4">
       <created>1678713144757</created>
@@ -295,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679056165565</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="012 Code Delete User Function.mp4&#10;10-35 min">
+      <created>1679259632724</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679259632724</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +365,8 @@
     <MESSAGE value="008 Encode User Password.mp4" />
     <MESSAGE value="010 Using Fontawesome for Icons.mp4" />
     <MESSAGE value="011 Code Update User Function.mp4" />
-    <option name="LAST_COMMIT_MESSAGE" value="011 Code Update User Function.mp4" />
+    <MESSAGE value="012 Code Delete User Function.mp4&#10;10-35 min" />
+    <option name="LAST_COMMIT_MESSAGE" value="012 Code Delete User Function.mp4&#10;10-35 min" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
