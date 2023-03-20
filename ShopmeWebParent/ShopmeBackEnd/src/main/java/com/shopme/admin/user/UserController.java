@@ -1,5 +1,6 @@
 package com.shopme.admin.user;
 
+
 import com.shopme.common.entity.Role;
 import com.shopme.common.entity.User;
 import org.springframework.stereotype.Controller;
@@ -89,4 +90,16 @@ public class UserController {
         return REDIRECT_USERS;
     }
 
+    @GetMapping("/users/{id}/enabled/{status}")
+    public String updateUserEnabledStatus(@PathVariable(name = "id") Integer id,
+                                          @PathVariable(name = "status") boolean enbled,
+                                          RedirectAttributes redirectAttributes) {
+        service.updateUserEnableStatus(id, enbled);
+        String status = enbled ? "enabled" : "disabled";
+        String message = "Этот пользователь ИД = " + id + "статус = " + status;
+        redirectAttributes.addFlashAttribute("message", message);
+
+        return REDIRECT_USERS;
+
+    }
 }

@@ -5,10 +5,12 @@ import com.shopme.common.entity.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.NoSuchElementException;
 
 @Service
+@Transactional
 public class UserService {
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
@@ -35,10 +37,10 @@ public class UserService {
 
         if (isUpdatingUser) {
             User existingUser = userRepository.findById(user.getId()).get();
-            if(user.getPassword().isEmpty()){
+            if (user.getPassword().isEmpty()) {
                 user.setPassword(existingUser.getPassword());
-			} else {
-				encodePassword(user);
+            } else {
+                encodePassword(user);
             }
 
         } else {
@@ -61,7 +63,7 @@ public class UserService {
         if (isCreatingNew) {
             if (userByEmail != null) return false;
         } else {
-            if (userByEmail.getId()!= id){
+            if (userByEmail.getId() != id) {
                 return false;
             }
         }
@@ -76,12 +78,17 @@ public class UserService {
             throw new UserNotFoundException("Нет пользователя с таким ИД = " + id);
         }
     }
+
     public void delete(Integer id) throws UserNotFoundException {
         Long countById = userRepository.countById(id);
-        if (countById== null || countById == 0) {
-            throw  new UserNotFoundException("Не удается найти пользователя с таким ID = " +id);
+        if (countById == null || countById == 0) {
+            throw new UserNotFoundException("Не удается найти пользователя с таким ID = " + id);
         }
 
         userRepository.deleteById(id);
+    }
+
+    public void updateUserEnableStatus(Integer id, boolean enabled) {
+        userRepository.updateEnabledStatus(id, enabled);
     }
 }
