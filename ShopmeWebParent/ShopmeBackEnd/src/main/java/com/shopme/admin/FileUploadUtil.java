@@ -23,4 +23,14 @@ public class FileUploadUtil {
             throw new IOException("Не могу сохранить файл" + fileName,exception);
         }
     }
+
+    public  static void clearDir (String  dir){
+        Path dirPath = Paths.get(dir);
+
+        try {
+            Files.list(dirPath).forEach(file);
+        }
+
+    }
+
 }
