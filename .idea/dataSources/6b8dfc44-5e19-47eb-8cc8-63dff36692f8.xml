@@ -1119,7 +1119,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>UK_ofx66keruapi6vyqpv6f2or37</UnderlyingIndexName>
     </key>
     <column id="315" parent="306" name="id">
-      <AutoIncrement>3</AutoIncrement>
+      <AutoIncrement>17</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>

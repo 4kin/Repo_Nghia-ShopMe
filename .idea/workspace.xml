@@ -4,15 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="014 Code User Photos Upload Function.mp4&#10;37-32">
+    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="014 Code User Photos Upload Function.mp4&#10;49-00">
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/Shopme Sample Users Data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/1/namhm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/10/Frederick Santos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/11/Anna Maria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/12/Satya Narayana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/13/Matthew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/14/Dave Kumar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/15/Jack Bruce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/16/Mohamed Zirri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/17/Mithun Kumar Majumdar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/18/Ali Raza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/19/Isaac Henry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/2/Allada Pavan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/20/Svetlana Stasovska.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/21/Mike Gates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/22/Pedro Quintero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/23/Amina Elshal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/3/Bruce Kitchell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/4/Muhammad Evran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/5/KentHervey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/6/Alfred.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/7/Nathi_Sangweni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/8/Ammanolla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/user-photos/9/Bill Feeny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Shopme Sample Users Data/users_roles_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/1/namhm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/10/Frederick Santos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/11/Anna Maria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/12/Satya Narayana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/13/Matthew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/14/Dave Kumar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/15/Jack Bruce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/16/Mohamed Zirri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/17/Mithun Kumar Majumdar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/18/Ali Raza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/19/Isaac Henry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/2/Allada Pavan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/20/Svetlana Stasovska.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/21/Mike Gates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/22/Pedro Quintero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/23/Amina Elshal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/3/Bruce Kitchell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/4/Muhammad Evran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/5/KentHervey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/6/Alfred.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/7/Nathi_Sangweni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/8/Ammanolla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-photos/9/Bill Feeny.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/FileUploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/FileUploadUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,39 +122,40 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/4kin-c/_java_projects/smp/Repo_Nghia-ShopMe/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8295f975250199ecbc6e3c56dbaa59bc&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "true",
+    "last_opened_file_path": "C:/4kin-c/_java_projects/smp/Repo_Nghia-ShopMe/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "spring.configuration.checksum": "8295f975250199ecbc6e3c56dbaa59bc",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.shopme.admin.user" />
@@ -236,7 +282,8 @@
       <workItem from="1678962925912" duration="2178000" />
       <workItem from="1679297331929" duration="13767000" />
       <workItem from="1679394578335" duration="843000" />
-      <workItem from="1679395952027" duration="1802000" />
+      <workItem from="1679395952027" duration="1869000" />
+      <workItem from="1679485764671" duration="4765000" />
     </task>
     <task id="LOCAL-00001" summary="002 Using jQuery and Bootstrap.mp4">
       <created>1678713144757</created>
@@ -315,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679322038426</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="014 Code User Photos Upload Function.mp4&#10;49-00">
+      <created>1679407244242</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679407244242</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +440,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="002 Using jQuery and Bootstrap.mp4" />
     <MESSAGE value="003 Add Logo and Create Header Menu.mp4" />
     <MESSAGE value="004 Code Role Entity, Role Repository and Unit Test.mp4" />
@@ -396,7 +451,8 @@
     <MESSAGE value="011 Code Update User Function.mp4" />
     <MESSAGE value="013 Code Update User Enabled Status.mp4&#10;finished" />
     <MESSAGE value="014 Code User Photos Upload Function.mp4&#10;37-32" />
-    <option name="LAST_COMMIT_MESSAGE" value="014 Code User Photos Upload Function.mp4&#10;37-32" />
+    <MESSAGE value="014 Code User Photos Upload Function.mp4&#10;49-00" />
+    <option name="LAST_COMMIT_MESSAGE" value="014 Code User Photos Upload Function.mp4&#10;49-00" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

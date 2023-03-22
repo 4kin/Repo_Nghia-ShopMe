@@ -18,17 +18,28 @@ public class FileUploadUtil {
         }
         try (InputStream inputStream = multipartFile.getInputStream()) {
             Path filePath = uploadPath.resolve(fileName);
-            Files.copy(inputStream,filePath, StandardCopyOption.REPLACE_EXISTING);
-        } catch (IOException exception){
-            throw new IOException("Не могу сохранить файл" + fileName,exception);
+            Files.copy(inputStream, filePath, StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException exception) {
+            throw new IOException("Не могу сохранить файл" + fileName, exception);
         }
     }
 
-    public  static void clearDir (String  dir){
+    public static void clearDir(String dir) {
         Path dirPath = Paths.get(dir);
 
         try {
-            Files.list(dirPath).forEach(file);
+            Files.list(dirPath).forEach(file -> {
+                if (!Files.isDirectory(file)) {
+                    try {
+                        Files.delete(file);
+                    } catch (IOException e) {
+                        System.out.println("Не могу удалить файл =  " + file);
+                    }
+
+                }
+            });
+        } catch (IOException e) {
+            System.out.println("Не могу посмотреть директорию = " + dirPath);
         }
 
     }

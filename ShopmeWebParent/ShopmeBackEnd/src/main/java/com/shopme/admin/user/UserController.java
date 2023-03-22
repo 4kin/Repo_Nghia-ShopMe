@@ -6,7 +6,6 @@ import com.shopme.common.entity.Role;
 import com.shopme.common.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.util.StreamUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -60,16 +59,22 @@ public class UserController {
                            @RequestParam("image") MultipartFile multipartFile) throws IOException {
 //        System.out.println(user);
 //        System.out.println(multipartFile.getOriginalFilename());
-        if(!multipartFile.isEmpty()){
+        if (!multipartFile.isEmpty()) {
             String fileName = StringUtils.cleanPath(multipartFile.getOriginalFilename());
             user.setPhotos(fileName);
             User savedUser = service.save(user);
 
-            String uploadDir = "user-photos/"+savedUser.getId();
+            String uploadDir = "user-photos/" + savedUser.getId();
+
+            FileUploadUtil.clearDir(uploadDir);
             FileUploadUtil.saveFile(uploadDir, fileName, multipartFile);
+        } else {
+            if (user.getPhotos().isEmpty()) {
+                user.setPhotos(null);
+            }
+            service.save(user);
         }
 
-//        service.save(user);
 
         redirectAttributes.addFlashAttribute("message", "Привет. Все хорошо сохранено");
         return REDIRECT_USERS;
