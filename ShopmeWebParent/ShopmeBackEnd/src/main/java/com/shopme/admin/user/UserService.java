@@ -2,6 +2,9 @@ package com.shopme.admin.user;
 
 import com.shopme.common.entity.Role;
 import com.shopme.common.entity.User;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +15,7 @@ import java.util.NoSuchElementException;
 @Service
 @Transactional
 public class UserService {
+    public static final int USERS_PER_PAGE = 4;
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
 
@@ -25,6 +29,11 @@ public class UserService {
 
     public List<User> listAll() {
         return (List<User>) userRepository.findAll();
+    }
+
+    public Page<User> listByPage(int pageNum){
+        Pageable pageable = PageRequest.of(pageNum - 1 , USERS_PER_PAGE);
+        return userRepository.findAll(pageable);
     }
 
     public List<Role> listRoles() {
