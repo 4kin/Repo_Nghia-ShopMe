@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ShopmeBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <option name="HIDE_BANNER" value="true" />
+    <module name="ShopmeBackEnd" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopme.admin.ShopmeBackEndApplication" />
+    <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+      <option name="credential" />
+      <option name="region" />
+      <option name="useCurrentConnection" value="false" />
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
