@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.util.List;
 
 @Controller
-public class UserController {
+public class UserController{
     public static final String REDIRECT_USERS = "redirect:/users";
     public static final String USER_FORM = "user_form";
     public static final String USERS = "users";
@@ -32,27 +32,30 @@ public class UserController {
 
     @GetMapping("/users")
     public String listFirstPAge(Model model) {
-        return listByPage(1, model,"firstName","asc");
+        return listByPage(1, model, "firstName", "asc",null);
     }
 
     @GetMapping("/users/page/{pageNum}")
-    public String listByPage(@PathVariable(name = "pageNum") int pageNum,
-                             Model model,
-                             @Param("sortField") String sortField,
-                             @Param("sortDir") String sortDir) {
-		System.out.println("Sort Field: " + sortField);
-		System.out.println("Sort Order: " + sortDir);
+    public String listByPage(
+            @PathVariable(name="pageNum") int pageNum,
+            Model model,
+            @Param("sortField") String sortField,
+            @Param("sortDir") String sortDir,
+            @Param("keyword") String keyword
+    ) {
+        System.out.println("Sort Field: " + sortField);
+        System.out.println("Sort Order: " + sortDir);
 
-        Page<User> page = service.listByPage(pageNum, sortField, sortDir);
+        Page<User> page      = service.listByPage(pageNum, sortField, sortDir, keyword);
         List<User> listUsers = page.getContent();
 
         long startCount = (pageNum - 1) * UserService.USERS_PER_PAGE + 1;
-        long endCount = startCount + UserService.USERS_PER_PAGE - 1;
+        long endCount   = startCount + UserService.USERS_PER_PAGE - 1;
         if (endCount > page.getTotalElements()) {
             endCount = page.getTotalElements();
         }
 
-		String reverseSortDir = sortDir.equals("asc") ? "desc" : "asc";
+        String reverseSortDir = sortDir.equals("asc") ? "desc" : "asc";
 
         model.addAttribute("currentPage", pageNum);
         model.addAttribute("totalPages", page.getTotalPages());
@@ -60,9 +63,11 @@ public class UserController {
         model.addAttribute("endCount", endCount);
         model.addAttribute("totalItems", page.getTotalElements());
         model.addAttribute("listUsers", listUsers);
-		model.addAttribute("sortField", sortField);
-		model.addAttribute("sortDir", sortDir);
-		model.addAttribute("reverseSortDir", reverseSortDir);
+        model.addAttribute("sortField", sortField);
+        model.addAttribute("sortDir", sortDir);
+        model.addAttribute("reverseSortDir", reverseSortDir);
+        model.addAttribute("keyword", keyword);
+
 
         return "users";
     }
@@ -79,15 +84,17 @@ public class UserController {
 
         model.addAttribute("user", user);
         model.addAttribute("listRoles", listRoles);
-		model.addAttribute("pageTitle", "Create New User");
+        model.addAttribute("pageTitle", "Create New User");
 
         return USER_FORM;
     }
 
     @PostMapping("/users/save")
-    public String saveUser(User user,
-                           RedirectAttributes redirectAttributes,
-                           @RequestParam("image") MultipartFile multipartFile) throws IOException {
+    public String saveUser(
+            User user,
+            RedirectAttributes redirectAttributes,
+            @RequestParam("image") MultipartFile multipartFile
+    ) throws IOException {
 //        System.out.println(user);
 //        System.out.println(multipartFile.getOriginalFilename());
         if (!multipartFile.isEmpty()) {
@@ -112,15 +119,17 @@ public class UserController {
     }
 
     @GetMapping("/users/edit/{id}")
-    public String editUser(@PathVariable(name = "id") Integer id,
-                           Model model,
-                           RedirectAttributes redirectAttributes) {
+    public String editUser(
+            @PathVariable(name="id") Integer id,
+            Model model,
+            RedirectAttributes redirectAttributes
+    ) {
         try {
-            User user = service.get(id);
+            User       user      = service.get(id);
             List<Role> listRoles = service.listRoles();
 
             model.addAttribute("user", user);
-			model.addAttribute("pageTitle", "Edit User (ID: " + id + ")");
+            model.addAttribute("pageTitle", "Edit User (ID: " + id + ")");
             model.addAttribute("listRoles", listRoles);
 
             return USER_FORM;
@@ -131,9 +140,11 @@ public class UserController {
     }
 
     @GetMapping("/users/delete/{id}")
-    public String deleteUser(@PathVariable(name = "id") Integer id,
-                             Model model,
-                             RedirectAttributes redirectAttributes) {
+    public String deleteUser(
+            @PathVariable(name="id") Integer id,
+            Model model,
+            RedirectAttributes redirectAttributes
+    ) {
         try {
             service.delete(id);
             redirectAttributes.addFlashAttribute("message", "Пользователь удален " + id);
@@ -145,11 +156,13 @@ public class UserController {
     }
 
     @GetMapping("/users/{id}/enabled/{status}")
-    public String updateUserEnabledStatus(@PathVariable(name = "id") Integer id,
-                                          @PathVariable(name = "status") boolean enbled,
-                                          RedirectAttributes redirectAttributes) {
+    public String updateUserEnabledStatus(
+            @PathVariable(name="id") Integer id,
+            @PathVariable(name="status") boolean enbled,
+            RedirectAttributes redirectAttributes
+    ) {
         service.updateUserEnableStatus(id, enbled);
-        String status = enbled ? "enabled" : "disabled";
+        String status  = enbled ? "enabled" : "disabled";
         String message = "Этот пользователь ИД = " + id + "статус = " + status;
         redirectAttributes.addFlashAttribute("message", message);
 
