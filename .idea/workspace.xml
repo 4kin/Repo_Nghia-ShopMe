@@ -4,15 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="019 Code Filter Function for Users List.mp4 finished">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/fragments.html" afterDir="false" />
+    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="sync">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserCsvExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="AUTO_SHOW_ERRORS_IN_EDITOR" value="false" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="6b8dfc44-5e19-47eb-8cc8-63dff36692f8" value="Blue" />
+    </colors>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -71,7 +98,7 @@
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "settings.editor.selected.configurable": "actions.on.save",
     "spring.configuration.checksum": "8295f975250199ecbc6e3c56dbaa59bc",
     "vue.rearranger.settings.migration": "true"
   },
@@ -292,12 +319,12 @@
       <option name="project" value="LOCAL" />
       <updated>1679303162874</updated>
     </task>
-    <task id="LOCAL-00011" summary="018 Code Sorting for Users List.mp4 finished">
-      <created>1679643520783</created>
+    <task id="LOCAL-00011" summary="014 Code User Photos Upload Function.mp4&#10;37-32">
+      <created>1679322038426</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1679643520783</updated>
+      <updated>1679322038426</updated>
     </task>
     <task id="LOCAL-00012" summary="019 Code Filter Function for Users List.mp4 finished">
       <created>1679666397840</created>
@@ -306,7 +333,7 @@
       <option name="project" value="LOCAL" />
       <updated>1679666397840</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,14 +362,14 @@
                   <entry key="hash">
                     <value>
                       <list>
-                        <option value="6e41fa7e6753b29d2e5132e26cc981a937b55e49" />
+                        <option value="6a8773f19cb378ce99e2623f6885b1d1496814f5" />
                       </list>
                     </value>
                   </entry>
                   <entry key="text">
                     <value>
                       <list>
-                        <option value="6e41fa7e6753b29d2e5132e26cc981a937b55e49" />
+                        <option value="6a8773f19cb378ce99e2623f6885b1d1496814f5" />
                       </list>
                     </value>
                   </entry>
@@ -387,9 +414,7 @@
     <MESSAGE value="010 Using Fontawesome for Icons.mp4" />
     <MESSAGE value="011 Code Update User Function.mp4" />
     <MESSAGE value="012 Code Delete User Function.mp4&#10;10-35 min" />
-    <MESSAGE value="018 Code Sorting for Users List.mp4 finished" />
-    <MESSAGE value="019 Code Filter Function for Users List.mp4 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="019 Code Filter Function for Users List.mp4 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="012 Code Delete User Function.mp4&#10;10-35 min" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
