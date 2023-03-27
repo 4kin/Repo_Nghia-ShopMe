@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="sync">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserCsvExporter.java" afterDir="false" />
+    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="020 Code Refactor #1.mp4 finished">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/AbstractExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserExcelExporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserCsvExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserCsvExporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,39 +77,39 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "true",
-    "last_opened_file_path": "C:/4kin-c/_java_projects/smp/Repo_Nghia-ShopMe",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "spring.configuration.checksum": "8295f975250199ecbc6e3c56dbaa59bc",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/4kin-c/_java_projects/smp/Repo_Nghia-ShopMe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8295f975250199ecbc6e3c56dbaa59bc&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.shopme.admin.user" />
@@ -333,7 +335,7 @@
       <option name="project" value="LOCAL" />
       <updated>1679666397840</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,14 +364,14 @@
                   <entry key="hash">
                     <value>
                       <list>
-                        <option value="6a8773f19cb378ce99e2623f6885b1d1496814f5" />
+                        <option value="0afed86678ab2cf2a600514cb32c5b611459c759" />
                       </list>
                     </value>
                   </entry>
                   <entry key="text">
                     <value>
                       <list>
-                        <option value="6a8773f19cb378ce99e2623f6885b1d1496814f5" />
+                        <option value="0afed86678ab2cf2a600514cb32c5b611459c759" />
                       </list>
                     </value>
                   </entry>
@@ -414,7 +416,9 @@
     <MESSAGE value="010 Using Fontawesome for Icons.mp4" />
     <MESSAGE value="011 Code Update User Function.mp4" />
     <MESSAGE value="012 Code Delete User Function.mp4&#10;10-35 min" />
-    <option name="LAST_COMMIT_MESSAGE" value="012 Code Delete User Function.mp4&#10;10-35 min" />
+    <MESSAGE value="018 Code Sorting for Users List.mp4 finished" />
+    <MESSAGE value="019 Code Filter Function for Users List.mp4 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="019 Code Filter Function for Users List.mp4 finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
