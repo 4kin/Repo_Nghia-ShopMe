@@ -190,4 +190,11 @@ public class UserController{
         exporter.export(userList, response);
     }
 
+    @GetMapping("/users/export/pdf")
+    public void exportToPdDF(HttpServletResponse response){
+        List<User> userList = service.listAll();
+
+        UserPdfExporter exporter = new UserPdfExporter();
+
+    }
 }
