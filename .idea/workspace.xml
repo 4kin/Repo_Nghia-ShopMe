@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="024 Update Users Listing for Mobile.mp4 finished">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/images/ShopmeAdminBig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/login.html" afterDir="false" />
+    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="002 Code User Login Page.mp4 finished">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetailsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,7 +246,7 @@
       <workItem from="1678962925912" duration="2178000" />
       <workItem from="1679253698300" duration="878000" />
       <workItem from="1679258025484" duration="4127000" />
-      <workItem from="1679980531193" duration="10819000" />
+      <workItem from="1679980531193" duration="12540000" />
     </task>
     <task id="LOCAL-00001" summary="002 Using jQuery and Bootstrap.mp4">
       <created>1678713144757</created>
@@ -361,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679997737932</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="002 Code User Login Page.mp4 finished">
+      <created>1680013231696</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680013231696</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +454,8 @@
     <MESSAGE value="023 Code Export Users to PDF.mp4 досмотреть до конца и набрать" />
     <MESSAGE value="023 Code Export Users to PDF.mp4 finished" />
     <MESSAGE value="024 Update Users Listing for Mobile.mp4 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="024 Update Users Listing for Mobile.mp4 finished" />
+    <MESSAGE value="002 Code User Login Page.mp4 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="002 Code User Login Page.mp4 finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
