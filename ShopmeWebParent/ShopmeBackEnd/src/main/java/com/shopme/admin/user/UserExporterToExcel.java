@@ -16,11 +16,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import com.shopme.common.entity.User;
 
-public class UserExcelExporter extends AbstractExporter{
+public class UserExporterToExcel extends AbstractExporter{
 	private XSSFWorkbook workbook;
 	private XSSFSheet sheet;
 
-	public UserExcelExporter() {
+	public UserExporterToExcel() {
 		workbook = new XSSFWorkbook();
 	}
 

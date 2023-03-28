@@ -178,23 +178,23 @@ public class UserController{
 
     @GetMapping("/users/export/csv")
     public void exportCsvExporter(HttpServletResponse response) throws IOException {
-        List<User> userList = service.listAll();
-        UserCsvExporter exporter = new UserCsvExporter();
+        List<User>        userList = service.listAll();
+        UserExporterToCsv exporter = new UserExporterToCsv();
         exporter.export(userList, response);
     }
 
     @GetMapping("/users/export/excel")
     public void exportToExcel(HttpServletResponse response) throws IOException {
-        List<User> userList = service.listAll();
-        UserExcelExporter exporter = new UserExcelExporter();
+        List<User>          userList = service.listAll();
+        UserExporterToExcel exporter = new UserExporterToExcel();
         exporter.export(userList, response);
     }
 
     @GetMapping("/users/export/pdf")
-    public void exportToPdDF(HttpServletResponse response){
+    public void exportToPdDF(HttpServletResponse response) throws IOException {
         List<User> userList = service.listAll();
 
-        UserPdfExporter exporter = new UserPdfExporter();
-
+        UserExporterToPdf exporter = new UserExporterToPdf();
+		exporter.export(userList, response);
     }
 }

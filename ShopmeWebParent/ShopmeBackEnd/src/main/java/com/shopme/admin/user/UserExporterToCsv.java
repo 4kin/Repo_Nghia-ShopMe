@@ -7,12 +7,9 @@ import org.supercsv.prefs.CsvPreference;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
-public class UserCsvExporter extends AbstractExporter{
+public class UserExporterToCsv extends AbstractExporter{
 
     public void export(List<User> listUsers, HttpServletResponse response) throws IOException {
 

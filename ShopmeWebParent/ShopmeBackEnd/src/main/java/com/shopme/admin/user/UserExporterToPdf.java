@@ -12,33 +12,7 @@ import java.awt.*;
 import java.io.IOException;
 import java.util.List;
 
-public class UserPdfExporter extends AbstractExporter{
-    private void writeTableHeader(PdfPTable table) {
-        PdfPCell cell = new PdfPCell();
-        cell.setBackgroundColor(Color.BLUE);
-        cell.setPadding(5);
-
-        Font font = FontFactory.getFont(FontFactory.HELVETICA);
-        font.setColor(Color.WHITE);
-
-        cell.setPhrase(new Phrase("ID", font));
-        table.addCell(cell);
-
-        cell.setPhrase(new Phrase("E-mail", font));
-        table.addCell(cell);
-
-        cell.setPhrase(new Phrase("First Name", font));
-        table.addCell(cell);
-
-        cell.setPhrase(new Phrase("Last Name", font));
-        table.addCell(cell);
-
-        cell.setPhrase(new Phrase("Roles ", font));
-        table.addCell(cell);
-
-        cell.setPhrase(new Phrase("Enabled", font));
-        table.addCell(cell);
-    }
+public class UserExporterToPdf extends AbstractExporter{
 
     public void export(List<User> listUsers, HttpServletResponse response) throws IOException {
         super.setResponseHeader(response, "application/pdf", ".pdf");
@@ -80,6 +54,33 @@ public class UserPdfExporter extends AbstractExporter{
             table.addCell(user.getRoles().toString());
             table.addCell(String.valueOf(user.isEnabled()));
         }
+    }
+
+    private void writeTableHeader(PdfPTable table) {
+        PdfPCell cell = new PdfPCell();
+        cell.setBackgroundColor(Color.BLUE);
+        cell.setPadding(5);
+
+        Font font = FontFactory.getFont(FontFactory.HELVETICA);
+        font.setColor(Color.WHITE);
+
+        cell.setPhrase(new Phrase("ID", font));
+        table.addCell(cell);
+
+        cell.setPhrase(new Phrase("E-mail", font));
+        table.addCell(cell);
+
+        cell.setPhrase(new Phrase("First Name", font));
+        table.addCell(cell);
+
+        cell.setPhrase(new Phrase("Last Name", font));
+        table.addCell(cell);
+
+        cell.setPhrase(new Phrase("Roles ", font));
+        table.addCell(cell);
+
+        cell.setPhrase(new Phrase("Enabled", font));
+        table.addCell(cell);
     }
 
 
