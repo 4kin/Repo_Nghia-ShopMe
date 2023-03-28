@@ -67,12 +67,9 @@
         <h2>Manage Users | [[${pageTitle}]]</h2>
     </div>
 
-    <form th:action="@{/users/save}"
-          method="post"
-          style="max-width: 700px; margin: 0 auto"
-          th:object="${user}"
-          onsubmit="return checkEmailUnique(this);"
-          enctype="multipart/form-data">
+	<form th:action="@{/users/save}" method="post" style="max-width: 700px; margin: 0 auto"
+		enctype="multipart/form-data"
+		th:object="${user}" onsubmit="return checkEmailUnique(this);">
         <input type="hidden" th:field="*{id}"/>
         <div class="border border-secondary rounded p-3">
             <div class="form-group row">
@@ -184,7 +181,7 @@
         });
         $("#fileImage").change(function () {
             fileSize = this.files[0].size;
-            // alert("File size = " + fileSize);
+
             if (fileSize > 1048576) {
                 this.setCustomValidity('Yuo must  choose file less 1Mb!');
                 this.reportValidity();
@@ -196,8 +193,8 @@
     });
 
     function showImageThumbnail(fileInput) {
-        file = fileInput.files[0];
-        reader = new FileReader();
+		var file = fileInput.files[0];
+		var reader = new FileReader();
         reader.onload = function (e) {
             $("#thumbnail").attr("src", e.target.result);
         };
@@ -215,13 +212,13 @@
         $.post(url, params, function (response) {
             if (response == "OK") {
                 form.submit();
-            } else if (response == "Duplicate") {
-                showModalDialog("Warning", "Пользователь с таким e-mail уже есть " + userEmail);
+			} else if (response == "Duplicated") {
+				showModalDialog("Warning", "There is another user having the email " + userEmail);
             } else {
-                showModalDialog("Error", "Неизвестный запрос");
+				showModalDialog("Error", "Unknown response from server");
             }
         }).fail(function () {
-            showModalDialog("Error", "Could not connect to server");
+			showModalDialog("Error", "Could not connect to the server");
         });
         return false;
     }

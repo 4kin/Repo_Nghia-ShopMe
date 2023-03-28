@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserRestController {
-    private final UserService userService;
+    private final UserService service;
 
     public UserRestController(UserService userService) {
-        this.userService = userService;
+        this.service = userService;
     }
 
     @PostMapping("/users/check_email")
     public String checkDuplicateEmail(@Param("id") Integer  id, @Param("email") String email) {
-        return userService.isEmailUnique(id, email) ? "OK" : "Duplicate";
+		return service.isEmailUnique(id, email) ? "OK" : "Duplicated";
     }
 }
