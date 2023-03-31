@@ -11,8 +11,8 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
-public class ShopmeUserDetails implements UserDetails{
-    private User user;
+public class ShopmeUserDetails implements UserDetails {
+    private final User user;
 
     public ShopmeUserDetails(User user) {
         this.user = user;
@@ -23,7 +23,7 @@ public class ShopmeUserDetails implements UserDetails{
         Set<Role> roles = user.getRoles();
         List<SimpleGrantedAuthority> authorities = new ArrayList<>();
 
-        for (Role role : roles){
+        for (Role role : roles) {
             authorities.add(new SimpleGrantedAuthority(role.getName()));
         }
         return authorities;

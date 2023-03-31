@@ -16,10 +16,15 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 
+    public final ShopmeUserDetailsService shopmeUserDetailsService;
+
+    public WebSecurityConfig(ShopmeUserDetailsService shopmeUserDetailsService) {
+        this.shopmeUserDetailsService = shopmeUserDetailsService;
+    }
 
     @Bean
     public UserDetailsService userDetailsService() {
-		return new ShopmeUserDetailsService();
+		return shopmeUserDetailsService;
     }
 
     @Bean
