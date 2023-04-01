@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32f7b01c-1915-416b-852e-ade2d964927c" name="Changes" comment="003 Code User Authentication.mp4 finished">
+    <list default="true" id="32f7b01c-1915-416b-852e-ade2d964927c" name="Changes" comment="004 Show User's Full Name and Logout Link.mp4 finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
       <updated>1680285175536</updated>
       <workItem from="1680285178152" duration="4487000" />
       <workItem from="1680293875031" duration="2153000" />
-      <workItem from="1680391348410" duration="1364000" />
+      <workItem from="1680391348410" duration="2172000" />
     </task>
     <task id="LOCAL-00001" summary="003 Code User Authentication.mp4 finished">
       <created>1680295373729</created>
@@ -93,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680295373729</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="004 Show User's Full Name and Logout Link.mp4 finished">
+      <created>1680392879235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680392879235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="003 Code User Authentication.mp4 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="003 Code User Authentication.mp4 finished" />
+    <MESSAGE value="004 Show User's Full Name and Logout Link.mp4 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="004 Show User's Full Name and Logout Link.mp4 finished" />
   </component>
 </project>
