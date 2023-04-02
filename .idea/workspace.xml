@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32f7b01c-1915-416b-852e-ade2d964927c" name="Changes" comment="004 Show User's Full Name and Logout Link.mp4 finished">
+    <list default="true" id="32f7b01c-1915-416b-852e-ade2d964927c" name="Changes" comment="005 Code Logout Function.mp4 finished">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +86,7 @@
       <updated>1680285175536</updated>
       <workItem from="1680285178152" duration="4487000" />
       <workItem from="1680293875031" duration="2153000" />
-      <workItem from="1680391348410" duration="2172000" />
+      <workItem from="1680391348410" duration="3551000" />
     </task>
     <task id="LOCAL-00001" summary="003 Code User Authentication.mp4 finished">
       <created>1680295373729</created>
@@ -96,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680392879235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="005 Code Logout Function.mp4 finished">
+      <created>1680393550882</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680393550882</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,17 +123,24 @@
             <State>
               <option name="FILTERS">
                 <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="вторая_ветка" />
+                      </list>
+                    </value>
+                  </entry>
                   <entry key="hash">
                     <value>
                       <list>
-                        <option value="ccf19c520b365db222c47a8dce848da5cc6340a4" />
+                        <option value="66dbfaf22fc4740c79300eb6a6088c0c85e12e38" />
                       </list>
                     </value>
                   </entry>
                   <entry key="text">
                     <value>
                       <list>
-                        <option value="ccf19c520b365db222c47a8dce848da5cc6340a4" />
+                        <option value="66dbfaf22fc4740c79300eb6a6088c0c85e12e38" />
                       </list>
                     </value>
                   </entry>
@@ -135,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="003 Code User Authentication.mp4 finished" />
     <MESSAGE value="004 Show User's Full Name and Logout Link.mp4 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="004 Show User's Full Name and Logout Link.mp4 finished" />
+    <MESSAGE value="005 Code Logout Function.mp4 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="005 Code Logout Function.mp4 finished" />
   </component>
 </project>
