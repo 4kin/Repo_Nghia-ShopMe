@@ -4,16 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32f7b01c-1915-416b-852e-ade2d964927c" name="Changes" comment="005 Code Logout Function.mp4 finished">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/navigation.html" afterDir="false" />
+    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="003 Code User Authentication.mp4 13-57">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/Shopme Sample Users Data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/1/namhm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/10/Frederick Santos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/11/Anna Maria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/12/Satya Narayana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/13/Matthew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/14/Dave Kumar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/15/Jack Bruce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/16/Mohamed Zirri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/17/Mithun Kumar Majumdar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/18/Ali Raza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/19/Isaac Henry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/2/Allada Pavan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/20/Svetlana Stasovska.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/21/Mike Gates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/22/Pedro Quintero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/23/Amina Elshal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/3/Bruce Kitchell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/4/Muhammad Evran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/5/KentHervey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/6/Alfred.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/7/Nathi_Sangweni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/8/Ammanolla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/user-photos/9/Bill Feeny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/users_roles_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="com.haulmont.jpb.NewClass" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,6 +58,9 @@
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Nn1it63aQccUmVdAZaPZqEB2dI" />
   <component name="ProjectLevelVcsManager">
@@ -43,25 +72,31 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;вторая__ветка&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fa88c042ab3c6c93ddd3837d9fd32aa8&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "вторая__ветка",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "fa88c042ab3c6c93ddd3837d9fd32aa8",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -83,10 +118,16 @@
       <created>1680285175536</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680285175536</updated>
-      <workItem from="1680285178152" duration="4487000" />
-      <workItem from="1680293875031" duration="2153000" />
-      <workItem from="1680391348410" duration="3551000" />
+      <updated>1678712910134</updated>
+      <workItem from="1678712913011" duration="2736000" />
+      <workItem from="1678773682987" duration="17381000" />
+      <workItem from="1678863835313" duration="11440000" />
+      <workItem from="1678945491164" duration="7563000" />
+      <workItem from="1678962925912" duration="2178000" />
+      <workItem from="1679253698300" duration="878000" />
+      <workItem from="1679258025484" duration="4127000" />
+      <workItem from="1679980531193" duration="12621000" />
+      <workItem from="1680155668674" duration="7505000" />
     </task>
     <task id="LOCAL-00001" summary="003 Code User Authentication.mp4 finished">
       <created>1680295373729</created>
@@ -109,7 +150,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680393550882</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00016" summary="024 Update Users Listing for Mobile.mp4 finished">
+      <created>1679997737932</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679997737932</updated>
+    </task>
+    <task id="LOCAL-00017" summary="002 Code User Login Page.mp4 finished">
+      <created>1680013231696</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680013231696</updated>
+    </task>
+    <task id="LOCAL-00018" summary="003 Code User Authentication.mp4 10-21">
+      <created>1680015008970</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680015008970</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,33 +180,44 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="55207478-1152-4819-b994-507572cb7899">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="вторая_ветка" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
                   <entry key="hash">
                     <value>
                       <list>
-                        <option value="66dbfaf22fc4740c79300eb6a6088c0c85e12e38" />
+                        <option value="b7fdc6d4073f9707af40744afd98ea06c54b26f9" />
                       </list>
                     </value>
                   </entry>
                   <entry key="text">
                     <value>
                       <list>
-                        <option value="66dbfaf22fc4740c79300eb6a6088c0c85e12e38" />
+                        <option value="b7fdc6d4073f9707af40744afd98ea06c54b26f9" />
                       </list>
                     </value>
                   </entry>
                 </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
               </option>
             </State>
           </value>
@@ -153,9 +226,53 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="003 Code User Authentication.mp4 finished" />
-    <MESSAGE value="004 Show User's Full Name and Logout Link.mp4 finished" />
-    <MESSAGE value="005 Code Logout Function.mp4 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="005 Code Logout Function.mp4 finished" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="002 Using jQuery and Bootstrap.mp4" />
+    <MESSAGE value="003 Add Logo and Create Header Menu.mp4" />
+    <MESSAGE value="004 Code Role Entity, Role Repository and Unit Test.mp4" />
+    <MESSAGE value="007 Code New User Function.mp4&#10;18 min" />
+    <MESSAGE value=".idea files" />
+    <MESSAGE value="008 Encode User Password.mp4" />
+    <MESSAGE value="010 Using Fontawesome for Icons.mp4" />
+    <MESSAGE value="011 Code Update User Function.mp4" />
+    <MESSAGE value="012 Code Delete User Function.mp4&#10;10-35 min" />
+    <MESSAGE value="018 Code Sorting for Users List.mp4 finished" />
+    <MESSAGE value="019 Code Filter Function for Users List.mp4 finished" />
+    <MESSAGE value="022 Code Export Users to Excel.mp4 finished" />
+    <MESSAGE value="023 Code Export Users to PDF.mp4 досмотреть до конца и набрать" />
+    <MESSAGE value="023 Code Export Users to PDF.mp4 finished" />
+    <MESSAGE value="024 Update Users Listing for Mobile.mp4 finished" />
+    <MESSAGE value="002 Code User Login Page.mp4 finished" />
+    <MESSAGE value="003 Code User Authentication.mp4 10-21" />
+    <option name="LAST_COMMIT_MESSAGE" value="003 Code User Authentication.mp4 10-21" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java</url>
+          <line>83</line>
+          <log-expression expression="&quot;новый&quot;" language="JAVA" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/MainController.java</url>
+          <line>15</line>
+          <log-expression expression="&quot;passwor43d&quot;" language="JAVA" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetailsService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
