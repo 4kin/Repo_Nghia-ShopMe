@@ -9,7 +9,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
-public class FileUploadUtil {
+public class FileUploadUtil{
     public static void saveFile(String uploadDir, String fileName, MultipartFile multipartFile) throws IOException {
         Path uploadPath = Paths.get(uploadDir);
 
@@ -24,7 +24,7 @@ public class FileUploadUtil {
         }
     }
 
-    public static void clearDir(String dir) {
+    public static void cleanDir(String dir) {
         Path dirPath = Paths.get(dir);
 
         try {
@@ -35,7 +35,6 @@ public class FileUploadUtil {
                     } catch (IOException e) {
                         System.out.println("Не могу удалить файл =  " + file);
                     }
-
                 }
             });
         } catch (IOException e) {

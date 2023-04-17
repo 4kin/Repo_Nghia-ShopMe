@@ -14,7 +14,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration
 @EnableWebSecurity
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 
     public final ShopmeUserDetailsService shopmeUserDetailsService;
 
@@ -48,7 +48,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 //        http.authorizeRequests().anyRequest().authenticated();
-        http.authorizeRequests()
+//        http.csrf()
+//                .disable()
+        http
+                .authorizeRequests()
                 .anyRequest()
                 .authenticated()
                 .and()
@@ -56,11 +59,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .loginPage("/login").usernameParameter("email")
                 .permitAll()
                 .and().logout().permitAll()
-			.and()
-				.rememberMe()
-					.key("AbcDefgHijKlmnOpqrs_1234567890")
-					.tokenValiditySeconds(7 * 24 * 60 * 60);
-					;
+                .and()
+                .rememberMe()
+                .key("AbcDefgHijKlmnOpqrs_1234567890")
+                .tokenValiditySeconds(7 * 24 * 60 * 60);
+        ;
 
     }
 
