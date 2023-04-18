@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="008 Code Update Account Details.mp4 27-28">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/account_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8/storage_v2/_src_/schema/sakila.oXLGyQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8/storage_v2/_src_/schema/sakila.oXLGyQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6b8dfc44-5e19-47eb-8cc8-63dff36692f8/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
+    <list default="true" id="9e113466-343d-4f6c-a8b4-0e1105b362c6" name="Changes" comment="008 Code Update Account Details.mp4 32-00">
+      <change afterPath="$PROJECT_DIR$/user-photos/1/Satya Narayana.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/FileUploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/FileUploadUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-photos/1/namhm.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +109,8 @@
       <workItem from="1681206415268" duration="78000" />
       <workItem from="1681206520681" duration="67000" />
       <workItem from="1681462807952" duration="1897000" />
-      <workItem from="1681724680727" duration="1583000" />
+      <workItem from="1681724680727" duration="2204000" />
+      <workItem from="1681809589425" duration="2752000" />
     </task>
     <task id="LOCAL-00001" summary="003 Code User Authentication.mp4 finished">
       <created>1680295373729</created>
@@ -167,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680531619158</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="008 Code Update Account Details.mp4 32-00">
+      <created>1681726952258</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681726952258</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,14 +197,14 @@
                   <entry key="hash">
                     <value>
                       <list>
-                        <option value="b7fdc6d4073f9707af40744afd98ea06c54b26f9" />
+                        <option value="ea644b5935525fc51edd8145ccdea5168187d4af" />
                       </list>
                     </value>
                   </entry>
                   <entry key="text">
                     <value>
                       <list>
-                        <option value="b7fdc6d4073f9707af40744afd98ea06c54b26f9" />
+                        <option value="ea644b5935525fc51edd8145ccdea5168187d4af" />
                       </list>
                     </value>
                   </entry>
@@ -243,7 +244,8 @@
     <MESSAGE value="002 Code User Login Page.mp4 finished" />
     <MESSAGE value="003 Code User Authentication.mp4 10-21" />
     <MESSAGE value="008 Code Update Account Details.mp4 27-28" />
-    <option name="LAST_COMMIT_MESSAGE" value="008 Code Update Account Details.mp4 27-28" />
+    <MESSAGE value="008 Code Update Account Details.mp4 32-00" />
+    <option name="LAST_COMMIT_MESSAGE" value="008 Code Update Account Details.mp4 32-00" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -20,45 +20,46 @@ import com.shopme.common.entity.User;
 @Controller
 public class AccountController{
 
-	@Autowired
-	private UserService service;
+    @Autowired
+    private UserService service;
 
-	@GetMapping("/account")
-	public String viewDetails(@AuthenticationPrincipal ShopmeUserDetails loggedUser,
-			Model model) {
-		String email = loggedUser.getUsername();
-		User user = service.getByEmail(email);
-		model.addAttribute("user", user);
+    @GetMapping("/account")
+    public String viewDetails(@AuthenticationPrincipal ShopmeUserDetails loggedUser,
+                              Model model) {
+        String email = loggedUser.getUsername();
+        User user = service.getByEmail(email);
+        model.addAttribute("user", user);
 
-		return "account_form";
+        return "account_form";
 
-	}
+    }
 
-	@PostMapping("/account/update")
-	public String saveDetails(User user, RedirectAttributes redirectAttributes,
-			@AuthenticationPrincipal ShopmeUserDetails loggedUser,
-			@RequestParam("image") MultipartFile multipartFile) throws IOException {
+    @PostMapping("/account/update")
+    public String saveDetails(User user, RedirectAttributes redirectAttributes,
+                              @AuthenticationPrincipal ShopmeUserDetails loggedUser,
+                              @RequestParam("image") MultipartFile multipartFile) throws IOException {
 
-		if (!multipartFile.isEmpty()) {
-			String fileName = StringUtils.cleanPath(multipartFile.getOriginalFilename());
-			user.setPhotos(fileName);
-			User savedUser = service.updateAccount(user);
+        if (!multipartFile.isEmpty()) {
+            String fileName = StringUtils.cleanPath(multipartFile.getOriginalFilename());
+            user.setPhotos(fileName);
+            User savedUser = service.updateAccount(user);
 
-			String uploadDir = "user-photos/" + savedUser.getId();
+            String uploadDir = "user-photos/" + savedUser.getId();
 
-			FileUploadUtil.cleanDir(uploadDir);
-			FileUploadUtil.saveFile(uploadDir, fileName, multipartFile);
+            FileUploadUtil.cleanDir(uploadDir);
+            FileUploadUtil.saveFile(uploadDir, fileName, multipartFile);
 
-		} else {
-			if (user.getPhotos().isEmpty()) user.setPhotos(null);
-			service.updateAccount(user);
-		}
+        } else {
+            if (user.getPhotos().isEmpty()) user.setPhotos(null);
+            service.updateAccount(user);
+        }
 
-		loggedUser.setFirstName(user.getFirstName());
-		loggedUser.setLastName(user.getLastName());
+        loggedUser.setFirstName(user.getFirstName());
+        loggedUser.setLastName(user.getLastName());
 
-		redirectAttributes.addFlashAttribute("message", "Your account details have been updated.");
+        redirectAttributes.addFlashAttribute("message", "Your account details have been updated.");
 
-		return "redirect:/account";
-	}
+
+        return "redirect:/account";
+    }
 }

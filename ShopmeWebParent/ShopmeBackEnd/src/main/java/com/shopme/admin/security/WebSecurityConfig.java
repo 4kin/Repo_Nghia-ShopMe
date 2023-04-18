@@ -14,7 +14,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration
 @EnableWebSecurity
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     public final ShopmeUserDetailsService shopmeUserDetailsService;
 
@@ -52,6 +52,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 //                .disable()
         http
                 .authorizeRequests()
+                .antMatchers("/user/**").hasAuthority("Admin")
                 .anyRequest()
                 .authenticated()
                 .and()
